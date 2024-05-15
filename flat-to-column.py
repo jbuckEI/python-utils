@@ -36,7 +36,6 @@ def main(input_file, output_file, columns):
     
     # Initialize an empty 2D array
     arr_2d = [[0] * columns for _ in range(rows)]
-    print(arr_2d)
     
     # Fill the 2D array with values from the 1D array in row-major order
     k = 0
